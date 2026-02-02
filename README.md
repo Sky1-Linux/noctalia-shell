@@ -35,6 +35,17 @@
 
 ---
 
+## Sky1-Linux Fork
+
+This is the [Sky1-Linux](https://github.com/Sky1-Linux) fork of Noctalia Shell. We are evaluating Noctalia as a desktop shell option for Sky1-Linux, a Debian-based distribution for ARM SoCs built on the CIX Sky1 (CD8180) platform.
+
+**Current status:** Minor patches for ARM SoC compatibility, being submitted upstream.
+
+**Changes in this fork:**
+- Thermal zone fallback for CPU/GPU temperature monitoring on ARM SCMI-based SoCs ([PR #1660](https://github.com/noctalia-dev/noctalia-shell/pull/1660))
+
+---
+
 ## What is Noctalia?
 
 A beautiful, minimal desktop shell for Wayland that actually gets out of your way. Built on Quickshell with a warm lavender aesthetic that you can easily customize to match your vibe.
